@@ -19,3 +19,7 @@ SELECT VERSION(), USER(), DATABASE();
 /* Duplicate descending */ 
 
 SELECT DISTINCT cust_id FROM account;
+
+/* Select form query */
+SELECT e.emp_id, e.fname, e.lname
+FROM (SELECT emp_id , fname, lname, start_date, title FROM employee) e; 
