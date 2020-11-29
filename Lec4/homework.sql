@@ -6,7 +6,7 @@
 -- 4, 9
 
 use bank;
-/* 4.3 */
+/* 4.3 */   
 SELECT account_id FROM account WHERE YEAR(open_date) = 2002;
 
 /* 4.4 */ 
